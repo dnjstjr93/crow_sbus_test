@@ -1,0 +1,23 @@
+{
+  "name": "crow_sbus_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib_lte_rc.js",
+  "dependencies": {
+    "mqtt": "^4.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnjstjr93/crow_sbus_test.git"
+  },
+  "author": "Wonseok Jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnjstjr93/crow_sbus_test/issues"
+  },
+  "homepage": "https://github.com/dnjstjr93/crow_sbus_test#readme"
+}
