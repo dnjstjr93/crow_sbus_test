@@ -20,6 +20,7 @@ config.name = my_msw_name;
 config.gcs = 'KETI_MUV';
 config.drone = 'KETI_UAV_2';
 config.lib = [{
+    name: 'lib_lte_rc',
     data: ['SBUS'],
     control: ['REMOTE', 'STATUS']
 }];
