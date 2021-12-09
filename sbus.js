@@ -21,6 +21,7 @@ config.gcs = 'KETI_MUV';
 config.drone = 'KETI_UAV_2';
 config.lib = [{
     name: 'lib_lte_rc',
+    scripts: 'node lib_lte_rc /dev/ttyUSB3 115200',
     data: ['SBUS'],
     control: ['REMOTE', 'STATUS']
 }];
@@ -151,7 +152,7 @@ function msw_mqtt_connect(broker_ip, port) {
 }
 
 function on_receive_from_muv(topic, str_message) {
-    // console.log('[' + topic + '] ' + str_message);
+    console.log('[' + topic + '] ' + str_message.toString('hex'));
 
     parseControlMission(topic, str_message);
 }
