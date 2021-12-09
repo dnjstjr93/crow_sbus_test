@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib_lte_rc.js",
   "dependencies": {
-    "mqtt": "^4.2.8"
+    "mqtt": "^4.2.8",
+    "serialport": "^9.2.8"
   },
   "devDependencies": {},
   "scripts": {
