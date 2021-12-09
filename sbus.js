@@ -35,8 +35,8 @@ msw_sub_fc_topic.push('/Mobius/' + config.gcs + '/Drone_Data/' + config.drone + 
 let msw_sub_lib_topic = [];
 let remote_topic = '';
 let status_topic = '';
-remote_topic = '/Mobius/' + config.gcs + '/Mission_Data/' + config.drone + '/' + config.name + '/' + config.lib[0].control[0];
-status_topic = '/Mobius/' + config.gcs + '/Mission_Data/' + config.drone + '/' + config.name + '/' + config.lib[0].control[1];
+remote_topic = '/Mobius/' + config.gcs + '/Mission_Data/' + config.drone + '/' + config.name + '/' + config.lib[0].control[0] + '/#';
+status_topic = '/Mobius/' + config.gcs + '/Mission_Data/' + config.drone + '/' + config.name + '/' + config.lib[0].control[1] + '/#';
 
 function init() {
     if (config.lib.length > 0) {
