@@ -4,10 +4,13 @@
   "description": "",
   "main": "lib_lte_rc.js",
   "dependencies": {
+    "i2c-bus": "^5.2.2",
     "mqtt": "^4.2.8",
-    "serialport": "^9.2.8"
+    "oled-font-5x7": "^1.0.3",
+    "oled-i2c-bus": "^1.0.12",
+    "serialport": "^9.2.8",
+    "system-sleep": "^1.3.7"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

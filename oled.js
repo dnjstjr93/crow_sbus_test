@@ -1,5 +1,5 @@
 // I2C
-var bus = 3;
+var bus = 1;
 var i2c = require('i2c-bus'),
     i2cBus = i2c.openSync(bus),
     oled = require('oled-i2c-bus');
